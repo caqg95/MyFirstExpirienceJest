@@ -1,0 +1,23 @@
+{
+  "name": "unittestmyfirstexpirience",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "jest --coverage",
+    "start": "babel-node main.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.12.3",
+    "@babel/node": "^7.12.6",
+    "@babel/preset-env": "^7.12.1",
+    "@types/jest": "^26.0.15",
+    "babel-jest": "^26.6.3",
+    "jest": "^26.6.3"
+  }
+}
